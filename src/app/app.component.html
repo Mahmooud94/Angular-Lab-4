@@ -1,0 +1,7 @@
+<!-- <app-navbar></app-navbar>
+<app-product-listing></app-product-listing> -->
+<!-- <app-navbar [addedProducts]="addedProduct" ></app-navbar>
+<app-product-listing (itemAdded)="onItemAdding($event)" ></app-product-listing> -->
+
+<app-navbar ></app-navbar>
+<router-outlet></router-outlet> <!-- Used this tag instead of the app product listing cuz it will load the prod listing no matter what i did in the routing module So it will find the path that matches my request(string url) and direct it -->
